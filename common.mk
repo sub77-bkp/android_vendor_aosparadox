@@ -44,6 +44,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:system/usr/keylayout/Vendor_045e_Product_0719.kl
 
+# Layers Manager
+PRODUCT_COPY_FILES += \
+    vendor/aosparadox/prebuilt/common/app/layersmanager.apk:system/app/layersmanager.apk
+
+
 # Misc packages
 PRODUCT_PACKAGES += \
     BluetoothExt \
