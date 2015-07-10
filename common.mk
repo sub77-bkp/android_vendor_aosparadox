@@ -48,6 +48,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/aosparadox/prebuilt/common/app/layersmanager.apk:system/app/layersmanager.apk
 
+# SuperSU
+PRODUCT_COPY_FILES += \
+    vendor/aosparadox/prebuilt/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
+    vendor/aosparadox/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
 
 # Misc packages
 PRODUCT_PACKAGES += \
